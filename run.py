@@ -322,7 +322,7 @@ def actualizarEstadosInterfaz():
 	tiemposCaminar = [ '%.2f' % elem for elem in nptiempoEstadisticos[:,2].tolist() ]
 	tiemposNada = [ '%.2f' % elem for elem in nptiempoEstadisticos[:,3].tolist() ]
 	ListaModulos = range(0, len(ACTIVIDAD_ACTUAL))
-	np.savetxt("./resultados/tiemposEstadisticosTotales", tiemposEstadisticosTotales, newline=" \n ")
+	#np.savetxt("./results/tiemposEstadisticosTotales", tiemposEstadisticosTotales, newline=" \n ")
 	#print("tiempos",tiemposComer,tiemposRumia,tiemposCaminar,tiemposNada)
 	global LISTA_NOMBRE_ACTIVIDADES
 	global LISTA_LINKS_ACTIVIDADES
